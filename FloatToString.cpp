@@ -24,7 +24,7 @@ public:
     }
     ~CFloatConverter()
     {
-        // Best practice to reset and cleanup any memory
+        // Best practice to reset and cleanup any memory this class owns
         m_buffer = 0;
         m_length = 0;
         m_precision = 0;
